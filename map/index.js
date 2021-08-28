@@ -24,10 +24,10 @@ const multipleIndexResponse = array.map((value, index) => value * index);
 console.log("multiple index response: ", multipleIndexResponse);
 
 /**
- * multiple the value with first index. 
+ * multiple the value with fourth index. 
  */
- const multipleWithFirstIndex = array.map((value, index, arr) => value * arr[4]);
- console.log("multiple with first index response: ", multipleWithFirstIndex);
+ const multipleWithFourthIndex = array.map((value, index, arr) => value * arr[4]);
+ console.log("multiple with fourth index response: ", multipleWithFirstIndex);
 
 /**
  * get the first name.
